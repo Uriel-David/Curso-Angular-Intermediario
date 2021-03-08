@@ -1,25 +1,24 @@
-# Curso Intermediário de Angular
+# Intermediate Course of Angular
 
-O projeto é um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
+The project is a film system, with the possibility of registering, editing, listing and viewing the films.
 
-## Instalação
+## Install
 
-1. clone o repositório `git clone git@github.com:Uriel-David/Curso-Angular-Intermediario.git` ou `https://github.com/Uriel-David/Curso-Angular-Intermediario.git`.
-2. Entre no projeto e instale as dependencias `npm install`
+1. clone the repository `git clone git@github.com:Uriel-David/Curso-Angular-Intermediario.git` ou `https://github.com/Uriel-David/Curso-Angular-Intermediario.git`.
+2. Enter the project and install the dependencies `npm install`
 
-## Ambiente Local
+## Local Environment
 
-Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código
+Execute `ng serve` for the project to go up locally. Access the url `http://localhost:4200/`. The project is already reloaded automatically according to the changes you make to the code.
 
-## Simulando o Back-end
+## Simulating the Backend
 
-Execute `npm install -g json-server` para instalar globalmente o servidor json. Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
+Execute `npm install -g json-server` to globally install the json server. After installation enter the project folder and run `json-server --watch db.json`, with this a server will be initialized at the url `http: // localhost: 3000 /`, after initialization it will be possible to make http requests.
 
-## Gerendo componente
+## Generating component
 
-Execute `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to create a new component. You can also use `ng generate directive | pipe | service | class | guard | interface | enum | module`.
 
 ## Build
 
-Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado dentro do diretório `dist/`. Adicionar `--prod` junto comando de build para gerar minificado e pronto para o ambiente de produção.
-
+Run `ng build` to generate the project build. The project will be created inside the `dist /` directory. Add `--prod` together with the build command to generate minified and ready for the production environment.
